@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Mars Dashboard</title>
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+	</head>
+	<body>
+
+
+
+		<h1>Welcome Spacetraveler</h1>
+<section id="left">
+		<h2>FUEL</h2>
+
+		<img id="Fuel" src="images/FuelEmpty.png">
+	</br>
+		<button onclick="change1()">ADD 25%</button>
+		<button onclick="change2()">ADD 50%</button>
+		<button onclick="change3()">ADD 75%</button>
+		<button onclick="change4()">ADD 100%</button>
+</section>
+<!--<p><input id="button1" type="button" value="ADD FUEL" onclick=change()></p>
+-->
+<section id="middle">
+		<h2>FOOD</h2>
+		<button onclick="openPage()">I'M HUNGRY!</button>
+		<button onclick="openPage2()">MORE FOOD</button>
+</section>
+
+<section id="right">
+		<h2>TIME SPENT:
+		<div>
+<label id="minutes">00</label>:<label id="seconds">00</label>
+</br>
+</br>
+<float id='currenttime'>Current Time:</float> <div id="time"></div>
+</div>
+</h2>
+</section>
+
+
+	</body>
+	<script
+		src="scripts/main.js">
+	</script>
+</html>
